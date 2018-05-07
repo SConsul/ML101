@@ -4,7 +4,7 @@ Material Used for the TSS-2018 sessions on Machine Learning
 Course Content
 ---------------
 
-__Session 1__ – Intro, Types of ML, Overview of the basics of Statistics. Pre-processing, Linear regression and Gradient Descent
+__Session 1__ – Intro, Types of ML, Overview of the basics of Statistics. Pre-processing, Linear Regression and Gradient Descent
 
 __Session 2__ – Classification, Logistic Regression, Decision Trees, Random Forest Classification
 
