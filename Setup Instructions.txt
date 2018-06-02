@@ -1,0 +1,42 @@
+Basic Setup for Machine Learning
+---------------------------------
+
+1.  Make an virtual environment (this is a safe practice)
+		For Windows users, use Anaconda 
+		Ubuntu users can also use Anaconda or stick with pip
+	Note: Ubuntu is recommended over Windows
+
+	Anaconda virtualenv: https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+	Ubuntu virtualenv: https://youtu.be/NTiuK1kVprs
+
+For steps 2 and 3 follow the commands given in the end sequentially.
+
+2. Install Python on your machine (I'd recommend Python 3.5+)
+		
+3. In this virtualenv, install the following packages
+		numpy, scipy, matplotlib, sklearn, pandas, seaborn
+
+		Other useful packages are Pytorch (torch), TensorFlow with keras  [OPTIONAL]
+
+Ubuntu commands:
+	In your virtualenv (i.e after source ml_env/bin/activate where ml_env is what I've named my virtualenv),
+		
+		sudo apt-get update
+		sudo apt-get install python3.6 (for python 3.6.1) or sudo apt-get install python3 (for python3.5)
+		sudo apt-get install python3-pip python3-dev
+		sudo pip3 install numpy scipy matplotlib 
+		sudo apt-get install python3-pandas
+		pip3 install jupyter
+		pip install -U scikit-learn
+
+Anaconda User Commands
+		Note sometimes installing from conda install will have connectivity error with continuum.io. This is fairly common and just repeating a few times solves this problem. Dont be surprised if you have to do this for almost every command, this is due to IITB proxy settings.
+
+		In your Anaconda Prompt, after activating your virtualenv,
+
+		conda install numpy scipy
+		conda install -c conda-forge matplotlib
+		pip install pandas scikit-learn jupyter 
+		conda install -c anaconda seaborn 
+
+		Link for Conda on windows: http://www.mikelanzetta.com/deep-learning-on-windows-redux.html
